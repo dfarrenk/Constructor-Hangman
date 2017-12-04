@@ -1,3 +1,4 @@
+// Underscore for unguessed letters.
 var Letter = function(letter) {
     this.value = letter;
     this.display = '_';

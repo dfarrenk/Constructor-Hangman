@@ -62,7 +62,7 @@ function gameTurn(livesRemaining) {
 function gameRound() {
     theWord = new word(randomWord());
     theWord.makeLetters();
-    gameTurn(9);
+    gameTurn(10);
 }
 
 gameRound();
